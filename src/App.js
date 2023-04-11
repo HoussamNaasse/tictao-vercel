@@ -38,7 +38,7 @@ function App() {
         let {oScore} = scores;
         oScore +=1
         setScores({...scores, oScore})
-      }else{
+      }else if(winner === "X"){
         let{xSCore} = scores;
         xSCore +=1
         setScores({...scores, xSCore})
